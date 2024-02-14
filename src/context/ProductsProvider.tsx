@@ -38,3 +38,5 @@ export const ProductsProvider = ({ children }: ChildrenType): ReactElement => {
 		</ProductsContext.Provider>
 	);
 };
+
+export default ProductsContext;

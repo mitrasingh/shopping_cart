@@ -18,6 +18,7 @@ export const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
 	} = useShoppingCart();
 
 	const quantity = getItemQuantity(id);
+	// console.log(typeof increaseCartQuantity);
 	// const quantity = 0;
 	return (
 		<Card className="h-100">
